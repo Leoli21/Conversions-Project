@@ -1,23 +1,26 @@
-
+/***
+ * 
+ * @author Leo Li
+ *
+ */
 public class ConversionsProject {
 
 	public static void main(String[] args) {
-		System.out.println("The feet to inches conversion: " + feetToInches(20.0,0.0));
-		System.out.println("The miles to feet conversion: " + milesToFeet(5.4,0.0));
-		System.out.println("The yards to meter conversion: " + yardsToMeters(100.0,0.0));
-		System.out.println("The pounds to kilograms conversion: " + poundsToKilograms(6.9,0.0));
+		System.out.println("The feet to inches conversion: " + feetToInches(3.45,0.0));
+		System.out.println("The miles to feet conversion: " + milesToFeet(5.42,0.0));
+		System.out.println("The yards to meter conversion: " + yardsToMeters(24.5,0.0));
+		System.out.println("The pounds to kilograms conversion: " + poundsToKilograms(8.76,0.0));
 		
-
 	}
 	public static double feetToInches(double feet1, double inch1)
 	{
 		inch1 = 12 * feet1;
-		return feet1;
+		return inch1;
 	}
 	public static double milesToFeet(double miles, double feet2)
 	{
-		miles = 5280 * feet2;
-		return miles;
+		feet2 = 5280 * miles;
+		return feet2;
 	}
 	public static double yardsToMeters(double yards, double meters)
 	{
